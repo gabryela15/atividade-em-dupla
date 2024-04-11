@@ -19,8 +19,6 @@ class Produto:
             print("Quantidade desejada excede o estoque disponível.")
             return None
 
-
-# Exemplo de uso:
 produto1 = Produto("Camiseta", 25.0, 50)
 print(f"Preço total: R${produto1.calcular_preco_total(5)}")
 produto1.atualizar_estoque(-3)

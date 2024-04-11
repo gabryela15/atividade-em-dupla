@@ -21,7 +21,6 @@ class Gato(Animal):
         return "Miau"
 
 
-# Exemplo de uso:
 meu_cachorro = Cachorro("Rex", 3, "Cachorro")
 print(meu_cachorro.informacoes())
 print(meu_cachorro.emitir_som())
